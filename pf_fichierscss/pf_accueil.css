@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'octo';
+    src:
+    url("../pf_police/octo/octosquares_trial_condensed_regular.ttf") format("truetype");
+  }
+
+div{
+  font-family: 'octo';
+}
+
+.fondtel{
+    width: 90vw;
+    height: 90vh;
+    top: 5vh;
+    left: 5vw;
+    border-radius: 10px; /* arrondir les bords */
+    position: fixed;
+    display: flex;
+    background: linear-gradient(rgb(20, 32, 91) 0%, rgb(21, 30, 81) 15%, rgb(22, 26, 51) 50%, rgb(23, 24, 41)92.5%, rgb(0,0,0) 100%);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
